@@ -34,9 +34,16 @@
     width: 100%;
     padding: 15px;
     margin-top: 15px;
-    
     border: none;
     color: white;
     font-weight: 1.4rem;
     border-radius: 10px;
+}
+@media (max-width:480px){
+    .signup_card_con{
+        height:33rem;
+    }
+    .signup_card_con{
+        padding: 2rem;
+    }
 }

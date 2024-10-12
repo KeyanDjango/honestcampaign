@@ -39,14 +39,14 @@ export default function Login() {
                 <ToastContainer/>
                 <img src={logotop} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                 <h1 style={{ textAlign: 'center', fontWeight: 'lighter' }}> Login to Honesti CRM </h1>
-                <h5 style={{ marginTop: 10, marginBottom: 15, textAlign: 'center', fontWeight: 'lighter' }}>Or <span style={{ color: '#18987a' }}> create a new  account </span> </h5>
+                <h5 style={{ marginTop: 10, marginBottom: 15, textAlign: 'center', fontWeight: 'lighter' }}>Or  <NavLink to='/signup' style={{ color: '#18987a', textDecoration: 'none' }}> create a new account </NavLink> </h5>
                 
                 <form onSubmit={handleSubmit}>
                     <label htmlFor='email_input'>Email</label> <br />
                     <input placeholder='example@companyname.com' id="email_input" autoComplete='off' autoCorrect='off' type="text" className={Styles.email_input} onChange={(e) => setEmail(e.target.value)}/>
 
                     <label htmlFor="password_input">Password</label>
-                    <NavLink to='/signup' style={{ float: 'right', color: '#18987a', textDecoration: 'none' }}> Forget your password? </NavLink>
+                    <NavLink to='' style={{ float: 'right', color: '#18987a', textDecoration: 'none' }}> Forget your password? </NavLink>
 
                     <input  placeholder='Password' id="password_input" autoComplete='off' autoCorrect='off' type="password" className={Styles.email_input} onChange={(e) => setPassword(e.target.value)} />
 

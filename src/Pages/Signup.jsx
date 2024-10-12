@@ -4,13 +4,16 @@ import logotop from '../Images/logo-honest.png';
 import { FaPlay } from "react-icons/fa";
 
 export default function Signup() {
+    function handleSubmit(e){
+        e.preventDefault();
+    }
     return (
         <div className={Styles.parent_signup_con}>
             <div className={Styles.signup_card}>
                 <img src={logotop} /><br />
                 <span style={{ fontWeight: 'lighter', fontSize: '1.6rem' }}>Create an account</span><br /><br />
 
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div style={{ display: 'flex', gap: 10 }}>
                         <div style={{ width: '50%' }}>
                             <label htmlFor='Fullname'>Full name</label><br />

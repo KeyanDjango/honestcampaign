@@ -1,0 +1,17 @@
+.parent_signup_con{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F1F3;
+}
+.signup_card{
+    width:40rem;
+    border-radius: 10px;
+    padding:3rem ;
+    background-color: white;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.4);
+}

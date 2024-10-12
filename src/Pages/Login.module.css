@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.parent_signup_con{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F1F3;
+}
+.signup_card_con{
+    width: 30rem;
+    height:30rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+
+}
+.email_input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 0.2px solid grey;
+}
+.loginbtn{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    
+    border: none;
+    color: white;
+    font-weight: 1.4rem;
+    border-radius: 10px;
+}
